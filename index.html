@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Q1Project: Shopping Website</title>
+
+		<style>
+
+			*{
+				margin: 0;
+				padding:0;
+				bottom: 14px;
+
+			}
+
+			body{
+				 background-image: url(https://i.pinimg.com/236x/5c/84/0e/5c840e6e5838c12ef692b0a1824c0a7b.jpg);
+				background-repeat: repeat;
+				font-family: Times New Romans, serfif;
+				padding-bottom: 20px;
+			}
+
+
+			.webpage{
+				background-color: #A8C686;
+				border: solid 2px #745E5B;
+				border-radius: 15px;
+				margin-top: 5%;
+				padding: 15px;
+				padding-bottom: 15px;
+				margin-left: 25%;
+				margin-right: 25%;
+				margin-bottom: 5%;
+				box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+			}
+
+
+
+/*			OPENING*/
+			.navbar{
+				box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+				display: flex;
+
+			}
+
+			ul {
+				list-style: none;
+				display: inline-flex;
+				background-color: #A8C686;
+			}
+
+			li{
+				display: inline;
+				text-align: center;
+			}
+
+			a{
+				color: whitesmoke;
+				text-decoration: none;
+				display: block;
+				padding: 8px;
+				font-style: bold;
+			}
+
+			li a:hover{
+/*				color: #A8C686;*/
+				background-color: #EECEC5;
+			}
+
+		.container{
+				background-color: whitesmoke;
+				border: 3px solid #A8C686;
+				color: #745E5B;
+				padding: 15px;
+			}
+
+
+/*			EXAMPLES*/
+
+			.selling{
+				background-color: whitesmoke;
+				border: 2px solid #A8C686;
+				text-align: center;
+				padding: 20px;
+			}
+
+			h2{
+				color: #745E5B;
+			}
+
+			.card{
+				padding: 20px;
+				width: 140px;
+				 display: inline-flex;
+				 flex-wrap: wrap;
+
+			}
+
+			.price {
+					background-color:  #A8C686;
+					color: whitesmoke;
+					width: 200px;
+					padding: 10px;
+					padding-bottom: 10px;
+					border: #A8C686 thick 10px;
+					display: inline-block;
+					text-align: center;
+			}
+
+			span{
+				background-color: #EECEC5;
+				width: 10px;
+				color: #745E5B ;
+			}
+
+			button{
+				background-color: whitesmoke;
+				display: inline-block;
+				color: #A8C686;
+				border: solid 2px #A8C686;
+				width: 150px;
+				padding: 15px;
+
+
+			}
+
+			button:hover{
+				background-color: beige;
+				color: #A8C686;
+			}
+
+/*			CLOSING*/	
+
+			.registration{
+				background-color: whitesmoke;
+				border: dashed 4px #A8C686;
+				margin-left: 25%;
+				margin-right: 25%;
+				color: #745E5B;
+				font-size: 15px;
+				align-content: center;
+				flex-wrap: wrap;
+				padding: 15px;
+			}
+
+
+			input[type=submit] {
+			  width: 80%;
+			  background-color: #A8C686;
+			  color: #745E5B;
+			  padding: 14px 20px;
+			  margin: 8px 0;
+			  border: #A8C686 solid 2px;
+			  border-radius: 4px;
+			  cursor: pointer;
+			  font-weight: bold;
+			}
+
+			input[type=submit]:hover {
+			  background-color: #EECEC5;
+			}
+
+
+			form{
+				padding: 14px;
+				align-content: center;
+
+			}
+
+
+
+			.footer{
+				background-color: #A8C686;
+				width: 100%;
+				position: fixed;
+				bottom: 0;
+				color: whitesmoke;
+			}
+
+			.divider-bottom.divider-top{
+				position: absolute;
+				align-content: center;
+				object-fit: contain;
+				width: 200px;
+				height: 300px;
+			}
+
+		</style>
+	</head>
+
+	<body>
+
+<!-- WEBPAGE -->
+	<div class="webpage">
+		<!-- NAV BAR -->
+		<div id="navbar">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<br />
+				<li><a href="#products">Products</a></li>
+				<br />
+				<li><a href="#registration">Sign up | Login</a></li>
+				<br />
+			</ul>
+		</div>
+
+		<hr />
+
+		<!--SELLING-->
+		<div class="divider-top">
+			<img src="https://64.media.tumblr.com/873eb723c2e20dfb80333fb3f20bfd51/ac2d1016cc2f5479-e2/s2048x3072/f77550e8d0bb7b57e5b0bca7ac5189a9574d8965.pnj" style="text-align: center; width: 720px">
+		</div>
+
+		<!--CONTAINER-->
+		<br />
+		<div class="container" id="home">					
+			<h2 style="text-align: center"><img src="https://pixelsafari.neocities.org/favicon/nature/plant/flower/pink16.gif" style="width: 30px">˚₊‧꒰ა Seasons ໒꒱ ‧₊˚</h2>
+				<p>Delivering beautiful arrangements for any occasion! Come visit and let your floral dreams blossom  𝅄 ꣑ৎ ࣪ㅤ𓈒 </p>
+		</div>
+
+		<!--CARD AND PRICE-->
+
+		<div class="selling" id="products">
+			<h2><img src="https://pixelsafari.neocities.org/favicon/nature/plant/flower/pink16.gif" style="width: 30px">˚₊‧꒰ა Flower Arrangements ໒꒱ ‧₊˚</h2>
+			<br />
+
+		<!-- CARDS -->
+			<div class="card">
+				<img src="https://designerblooms.com.ph/cdn/shop/products/CountrySecretLuxe-3_360x.jpg?v=1717747517" alt="examples" style="width: 120%">
+				<div class="price" id="best">
+					<h3>Summer<br />Breeze</h3>
+					<p><em>₱210.00</em></p>
+					<p><span>Best Seller <img src="https://pixelsafari.neocities.org/favicon/nature/plant/flower/pink28.gif"></span></p>
+					<br />
+					<button><b>Add to Basket</b></button>
+				</div>
+			</div>
+
+			<div class="card">
+				<img src="https://designerblooms.com.ph/cdn/shop/files/Peony-2_360x.jpg?v=1718941607" alt="examples" style="width: 120%">
+				<div class="price" id="best">
+					<h3>Pink<br />Paradise</h3>
+					<p><em>₱300.00</em></p>
+					<p><span>Best Seller <img src="https://pixelsafari.neocities.org/favicon/nature/plant/flower/pink28.gif"></span></p>
+					<br />
+					<button><b>Add to Basket</b></button>
+				</div>
+			</div>
+
+			<div class="card">
+				<img src="https://designerblooms.com.ph/cdn/shop/products/EncourageFruityLuxe-2_360x.jpg?v=1717747657" alt="examples" style="width: 120%">
+				<div class="price">
+					<h3>Morning<br />Sunrise</h3>
+					<p><em>₱250.00</em></p>
+					<p><span>Best Seller <img src="https://pixelsafari.neocities.org/favicon/nature/plant/flower/pink28.gif"></span></p>
+					<br />
+					<button><b>Add to Basket</b></button>
+				</div>
+			</div>
+
+			<div class="card">
+				<img src="https://designerblooms.com.ph/cdn/shop/files/HoneysucklePrestige-1_360x.jpg?v=1717747709" alt="examples" style="width: 120%">
+				<div class="price">
+					<h3>Afternoon<br />Bloom</h3>
+					<p><em>₱220.00</em></p>
+					<br />
+					<button><b>Add to Basket</b></button>
+				</div>
+			</div>
+
+			<div class="card">
+				<img src="https://designerblooms.com.ph/cdn/shop/files/LemonChiffonPrestige-3_360x.jpg?v=1717656635" alt="examples" style="width: 120%">
+				<div class="price">
+					<h3>Golden<br/>Spring</h3>
+					<p><em>₱210.00</em></p>
+					<br />
+					<button><b>Add to Basket</b></button>
+				</div>
+			</div>
+
+				<div class="card">
+				<img src="https://cdn11.bigcommerce.com/s-gnthvqm/images/stencil/640w/products/1632/3848/CF328__49974.1448323747.jpg?c=2" alt="examples" style="width: 120%">
+				<div class="price">
+					<h3>Winter <br />Baby Blues</h3>
+					<p><em>$220.00</em></p>
+					<br />
+					<button><b>Add to Basket</b></button>
+				</div>
+			</div>
+		</div>
+
+		<!-- DIVIDER -->
+		<div class="divider-bottom">
+			<img src="https://64.media.tumblr.com/4be3429ac4e65163dec5ed1c8a8c56b5/ac2d1016cc2f5479-a8/s2048x3072/2d3f6552c9ad56f79a5f7fe85cb9d29d52255850.gifv" alt="divider" style="text-align: center; width: 720px">
+		</div>
+	</div>
+
+
+	<!-- REGISTRATION -->
+	<div class="registration" id="registration">
+
+			<form>
+				<h4><b><img src="https://pixelsafari.neocities.org/favicon/nature/plant/flower/yellow10.gif" style="width: 20px">Register</b></h4>
+				<hr>
+			<label for="email">Email:</label>
+			    <input type="text" id="email" name="email" placeholder="Your email..">
+			    <br />
+			    <label for="lname">Password:</label>
+			    <input type="password" id="pword" name="password" placeholder="Your password..">
+			    <br />
+			    <label for="country">Country:</label>
+			    <select id="country" name="country">
+			      <option value="australia">Philippines</option>
+			      <option value="canada">Japan</option>
+			      <option value="usa">USA</option>
+			    </select>
+				<br />
+			    <input type="submit" value="Register">
+			  </form>
+
+			<form>
+				<h4><b><img src="https://pixelsafari.neocities.org/favicon/nature/plant/flower/yellow10.gif" style="width: 20px">Login</b></h4>
+				<hr>
+				<label for="Email">Email or username:</label>
+			    <input type="text" id="email" name="email" placeholder="Your email or username..">
+			    <br />
+			    <label for="lname">Password:</label>
+			    <input type="password" id="pword" name="password" placeholder="Your password..">
+			    <br />	
+			    <input type="submit" value="Login">
+			</form>
+		</div>
+	</div>
+</div>
+	<!-- FOOTER -->
+
+		<div class="footer">
+			<h4>Yao, Harmony Gail K. - 9TOPAZ<h4>
+		</div>
+
+	</body>
